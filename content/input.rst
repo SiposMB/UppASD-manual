@@ -343,7 +343,7 @@ In this formalism, the anti-symmetric part of the tensor are proportional to the
   0 0 1 2 0.00134 0.0 0.0 0.0 0.00134 0.0 0.0 0.0 0.00134
   0 0 2 1 0.00134 0.0 0.0 0.0 0.00134 0.0 0.0 0.0 0.00134
 
-*NB*: ``maptype`` must be set to 2 in order to use the tensorial format. In addition, since SKKR prints the exchange in Ry, UppASD reads this input in Ry and not in mRy as usual. 
+*NB*: ``maptype`` must be set to 2 in order to use the tensorial format. The interactions should still be specified in mRy.
 
 +---------------+--------------------------------------------------------------------------------------------------------+
 |  anisotropy    |     External file for anisotropy strengths and directions.                                            |
